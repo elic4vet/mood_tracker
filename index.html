@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My mood tracker</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Mood tracker</h1>
+      <p class="credits">
+        <img
+          src="assets/stress-management.png"
+          alt="image"
+          class="main-photo"
+        />
+        Icon made by
+        <a href="https://www.flaticon.com/authors/sbts2018" title="SBTS2018">
+          SBTS2018
+        </a>
+      </p>
+      <input type="text" id="input-field" placeholder="How are you feeling?" />
+      <button id="add-button">Add your feelings</button>
+      <ul id="mood-list"></ul>
+      <p id="datetime"></p>
+    </div>
+
+    <script src="functions.js" type="module"></script>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
