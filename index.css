@@ -24,8 +24,8 @@ input {
   font-size: 20px;
   text-align: center;
   margin: 10px 0;
-
   box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #999;
 }
 
 button {
@@ -39,6 +39,13 @@ button {
   cursor: pointer;
   background-color: #9076d8;
   margin-bottom: 10px;
+  color: #fff;
+  box-shadow: 0 0 5px #999;
+}
+button:hover {
+  background-color: #fadc8d;
+  transition: background-color 0.3s ease-in-out;
+  color: #333;
 }
 
 ul {
@@ -59,14 +66,12 @@ ul li {
   text-align: center;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
   font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 0 5px #999;
 }
 
 ul li:hover {
   background-color: #ffecc7;
-}
-
-button:hover {
-  background-color: #fadc8d;
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -74,7 +79,8 @@ button:hover {
   display: flex;
   flex-direction: column;
   max-width: 320px;
-  margin: 30px auto;
+  margin: 10px auto;
+  padding: 20px;
 }
 
 .main-photo {
